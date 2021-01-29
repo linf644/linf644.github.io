@@ -1,0 +1,25 @@
+body{
+    margin:0;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color:beige;
+}
+.headline{
+    font-size: 5rem;
+    font-family: sans-serif;
+    color: rosybrown;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(182, 157, 157);
+    font-size: 50px;
+}
+.image{
+    width: 400px;
+}
