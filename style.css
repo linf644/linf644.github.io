@@ -9,13 +9,10 @@
 body{
     margin:0;
 }
-ul{
-    list-style-type: none;
-}
-.container{
+.container {
     width: 100%;
     height: 100%;
-    background-color: mintcream;
+    background-color: rgb(253, 248, 238);
     overflow-y: scroll;
 }
 .firstline {
@@ -51,8 +48,4 @@ ul{
     text-decoration: none;
     color: rgb(179, 196, 218);
 }
-.nav-link{
-    text-decoration: none;
-    color: rgb(179, 196, 218);
-    font-size: 50px;
-}
+
