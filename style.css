@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Supernova.woff2";
+    src: url(./assets/Supernova.woff2) format("woff2");
+}
+@font-face {
+    font-family: "NewYork.woff2";
+    src: url(./assets/NewYork.woff2) format("woff2");
+}
 body{
     margin:0;
 }
@@ -7,19 +15,44 @@ ul{
 .container{
     width: 100%;
     height: 100%;
-    padding: 20px;
-    background-color:beige;
+    background-color: mintcream;
+    overflow-y: scroll;
+}
+.firstline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 25.6rem;
+    border-bottom: 0.0625rem solid rgb(179, 196, 218);
+}
+.secondline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 25.6rem;
+    border-bottom: 0.0625rem solid rgb(179, 196, 218);
+}
+.thirdline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 25.6rem;
+    border-bottom: 0.0625rem solid rgb(179, 196, 218);
 }
 .headline{
-    font-size: 5rem;
-    font-family: sans-serif;
-    color: rosybrown;
+    font-size: 10rem;
+    font-family: "NewYork.woff2";
+    font-weight: normal;
+}
+.headline a {
+    text-decoration: none;
+    color: rgb(179, 196, 218);
 }
 .nav-link{
     text-decoration: none;
-    color: rgb(182, 157, 157);
+    color: rgb(179, 196, 218);
     font-size: 50px;
-}
-.image{
-    width: 400px;
 }
