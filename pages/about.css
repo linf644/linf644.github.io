@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "NewYork.woff2";
+    src: url(./assets/NewYork.woff2) format("woff2");
+}
+body{
+    margin:0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
 ul{
     list-style-type: none;
 }
@@ -7,12 +18,27 @@ ul{
     background-color: rgb(253, 248, 238);
     overflow-y: scroll;
 }
-.headline{
-    color: salmon;
+.return img{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 60px;
+    height: auto;
 }
-
 .nav-link{
     text-decoration: none;
     color: rgb(179, 196, 218);
-    font-size: 50px;
+    font-size: 25px;
+}
+@media only screen and (min-width:450px) {
+    .return img{
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 100px;
+        height: auto;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: rgb(179, 196, 218);
+        font-size: 50px;
+    }
 }
