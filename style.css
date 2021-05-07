@@ -1,6 +1,10 @@
 @font-face {
     font-family: "NewYork.woff2";
-    src: url(./assets/NewYork.woff2) format("woff2");
+    src: url(./assets/fonts/NewYork.woff2) format("woff2");
+}
+@font-face {
+    font-family: "SuisseIntl-UltraLight.woff";
+    src: url(./assets/fonts/SuisseIntl-UltraLight.woff) format("woff");
 }
 body{
     margin:0;
@@ -31,15 +35,16 @@ a {
     position: absolute;
     top: 30px;
     left: 20px;
+    font-family: "SuisseIntl-UltraLight.woff";
     font-size: 1.2rem;
-    font-weight: lighter;
+    transition: 1.5s ease-out;
 }
 .nav-project {
     position: absolute;
     top: 30px;
     right: 20px;
+    font-family: "SuisseIntl-UltraLight.woff";
     font-size: 1.2rem;
-    font-weight: lighter;
     transition: 1.5s ease-out;
 }
 #section2 {
@@ -50,6 +55,7 @@ a {
     font-family: "NewYork.woff2";
     margin-top: 28rem;
     margin-bottom: 18rem;
+    margin-left: -2.5rem;
     justify-content: center;
     align-items: center;
 }
